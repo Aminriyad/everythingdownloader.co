@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Serif Display';
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Nav {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 766px;
+  display:flex;
+  justify-content:flex-end;
+}
+.Nav div:nth-child(2){
+  width: 70%;
+  max-width:466px;
+}
+h2{
+  display:flex;
+  justify-content: center;
+  margin:0 auto;
+  color:#fff;
+}
+
+main{
+  width: 100%;
+  padding: 20% 0 25% 0;
+  background-color: darkblue;
+}
+.SSBox{
+  display:flex;
+  justify-content: center;
+  margin:0 auto;
+  background-color: blue;
+  width: 80%;
+  max-width:500px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  
+}
+.Searcher{
+  width: 70%;
+}
+.Searcher input{
+  outline:none;
+  border: none transparent
+}
+.SButton button{
+  font-size:15px;
+  width: 90px;
+  min-width: 85%;
+  height: 2rem;
+  color:  #fff;
+  border-radius: 5px;
+  background-color: rgb(255, 0, 0);
+  margin: 0 0 0 10px;
+}
+section{
+  justify-content: center;
+  display:block;
+  margin: 0 auto;
+}
+section div{
+  justify-content: center;
+  display:block;
+  margin: 0 auto;
+  width: 80%;
+}
