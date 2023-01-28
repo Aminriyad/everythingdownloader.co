@@ -32,8 +32,9 @@ code {
 h2{
   display:flex;
   justify-content: center;
-  margin:0 auto;
+  margin:20px 0 20px 0;
   color:#fff;
+  font-size:30px;
 }
 
 main{
@@ -58,7 +59,8 @@ main{
 }
 .Searcher input{
   outline:none;
-  border: none transparent
+  border: none transparent;
+  font-size:15px;
 }
 .SButton button{
   font-size:15px;
@@ -69,6 +71,7 @@ main{
   border-radius: 5px;
   background-color: rgb(255, 0, 0);
   margin: 0 0 0 10px;
+  border: none transparent
 }
 section{
   justify-content: center;
@@ -79,5 +82,30 @@ section div{
   justify-content: center;
   display:block;
   margin: 0 auto;
-  width: 80%;
+  width: 75%;
 }
+img{
+  width:150px;
+  height: 120px;
+}
+.platforms ul{
+list-style: none;
+justify-content: center;
+display: flex;
+}
+h1{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin:20px 0 20px 0;
+}
+.section2 div{
+  display: flex;
+}
+.section2 div div{
+  width: 155px;
+  display: block;
+}
+.section1{}
+.section2{}
+.section3{}

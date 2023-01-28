@@ -28,10 +28,9 @@ const Nav = () => {
             </div>
         </main>
         <body>
-            <section> {/* supported patforms */}
-            <div>Being the third most popular website in the world, YouTube offers an excellent viewer experience to its users. What it can’t provide is a YouTube video download. That is why ssyoutube is here to help you out!</div>
-            <div>Supported Platforms:</div>
-            <div>
+            <section className={"section1"}> {/* supported patforms */}
+            <h1>Supported Platforms:</h1>
+            <div className={"platforms"}>
                 <ul>
                 <li><img src={windows} alt="" /></li>
                 <li><img src={apple} alt="" /></li>
@@ -49,8 +48,8 @@ const Nav = () => {
                 <p>Want to know more? You can find our download instructions below.</p>
             </div>
             </section>
-            <section>{/* How to download youtube videos online (1) it will need grids*/}
-            <h2>How to download youtube videos online</h2>
+            <section className={"section2"}>{/* How to download youtube videos online (1) it will need grids*/}
+            <h1>How to download youtube videos online</h1>
             <div>
                 <div>
                     <img src={one} alt="" />
@@ -66,9 +65,9 @@ const Nav = () => {
                 </div>
             </div>
             </section>
-            <section>{/* How to save youtube videos from various formats (2)*/}
+            <section className={"section3"}>{/* How to save youtube videos from various formats (2)*/}
             <div>
-                <h3>How to save YouTube videos in various formats</h3>
+                <h1>How to save YouTube videos in various formats</h1>
                 <ol>
                     <li>If you want to download YouTube videos in HD, MP3, or MP4, use Televzr Downloader.</li>
                     <li>YouTube video download is also possible with Ummy. Just click on the buttons “HD via Ummy” or “MP3 via Ummy” below the video you want to save.</li>
@@ -78,6 +77,11 @@ const Nav = () => {
             </div>
             </section>
         </body>
+        <footer>
+            <div>
+                
+            </div>
+        </footer>
         </div>
     );
 }
