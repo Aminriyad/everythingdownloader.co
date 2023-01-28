@@ -1,6 +1,10 @@
 import one from "./img/howto2.png"
 import two from "./img/howto3.png"
 import three from "./img/howto4.png"
+import apple from "./img/apple.svg"
+import android from "./img/android.svg"
+import linux from "./img/linux.svg"
+import windows from "./img/windows.svg"
 const Nav = () => {
     return (<div>
         <header>
@@ -29,10 +33,10 @@ const Nav = () => {
             <div>Supported Platforms:</div>
             <div>
                 <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><img src={windows} alt="" /></li>
+                <li><img src={apple} alt="" /></li>
+                <li><img src={android} alt="" /></li>
+                <li><img src={linux} alt="" /></li>
             </ul>
             </div>
             <div>
